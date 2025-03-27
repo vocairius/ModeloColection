@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualización de Modelo 3D</title>
+    <!-- Importar el componente model-viewer -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Modelo 3D</h1>
+    <p>Nicolas murcia</p>
+    <!-- Uso del componente model-viewer con camera-controls -->
+    <model-viewer 
+        src="./GBL/CollecFinalExport.glb" 
+        alt="Descripción de tu modelo 3D" 
+        ar 
+        camera-controls
+        poster="ruta/a/tu/imagen-poster.webp">
+    </model-viewer>
+    <!-- Enlace al archivo JavaScript externo si es necesario -->
+    <script src="scripts.js"></script>
+</body>
+</html>
